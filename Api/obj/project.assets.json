@@ -4852,11 +4852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ghiraa\\Desktop\\CrudAngularWebAPI\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\Users\\ghiraa\\Desktop\\CrudAngular.NET\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\ghiraa\\Desktop\\CrudAngularWebAPI\\Api\\Api.csproj",
+      "projectPath": "C:\\Users\\ghiraa\\Desktop\\CrudAngular.NET\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\ghiraa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ghiraa\\Desktop\\CrudAngularWebAPI\\Api\\obj\\",
+      "outputPath": "C:\\Users\\ghiraa\\Desktop\\CrudAngular.NET\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ghiraa\\AppData\\Roaming\\NuGet\\NuGet.Config"

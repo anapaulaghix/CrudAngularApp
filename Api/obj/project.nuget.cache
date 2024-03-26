@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5AJlH1VwAGUlAFCYPsms01IwVfAedmWnx9I6I7oqZNeOm3g9fr76XUCpv8dmAF4JdsWDZjipRSsZ4zlF10MN0g==",
+  "dgSpecHash": "YlBUNmkAjaB/NeFk0CcdmPiQlh6zv4Fspb2BBiQPJ82so7kNU5830USaAkqDpcPlo0zBFaGwgK40sGEtVMlrwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ghiraa\\Desktop\\CrudAngularWebAPI\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\ghiraa\\Desktop\\CrudAngular.NET\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ghiraa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ghiraa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
