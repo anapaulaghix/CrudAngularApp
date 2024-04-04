@@ -72,7 +72,7 @@ namespace Api.Controller
             }
 
             
-            return BadRequest("Unable to delted student");
+            return BadRequest("Unable to deleted student");
         }
 
         [HttpPut("{id:int}")] // update
