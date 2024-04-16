@@ -1,4 +1,4 @@
-import { JsonPipe } from '@angular/common';
+import { CommonModule, JsonPipe } from '@angular/common';
 import { Component, OnDestroy, OnInit, inject } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
@@ -10,7 +10,7 @@ import { response } from 'express';
 @Component({
   selector: 'app-student-form',
   standalone: true,
-  imports: [ReactiveFormsModule, JsonPipe, RouterLink],
+  imports: [ReactiveFormsModule, JsonPipe, RouterLink, CommonModule],
   templateUrl: './student-form.component.html',
   styleUrl: './student-form.component.css'
 })
@@ -51,12 +51,11 @@ export class StudentFormComponent implements OnInit, OnDestroy {
   }
 
   adicionarEstudante(): void{
-    console.log(this.form.value);
     this.studentformSubscription= this.studentService.addStudent(this.form.value).subscribe({
       next:response=>{
+        console.log(response)
         this.toasterService.success("Student sucesfully added")
         this.router.navigateByUrl('/students');
-
       },
       error:err=>{
         console.log(err);
@@ -74,7 +73,6 @@ export class StudentFormComponent implements OnInit, OnDestroy {
         this.router.navigateByUrl('/students')
       },
       error:err=>{
-         console.log(err)
         this.toasterService.error('Unable to edit');
       }
     }
